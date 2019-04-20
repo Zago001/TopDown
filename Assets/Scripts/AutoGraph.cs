@@ -56,7 +56,9 @@ public class AutoGraph : MonoBehaviour
     }
 
     List<Vector2> getPath(Vector2 start, Vector2 end) {
-        List<Vector2> path = new List<Vector2>();
+        List<Vector2[]> paths = new List<Vector2[]>();
+        paths.Add(new Vector2[] {start});
+
         return path;
     }
 }
